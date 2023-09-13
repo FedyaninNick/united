@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@100&family=Luckiest+Guy&display=swap");
+.some-element {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.another-element {
+  font-family: "Luckiest Guy", cursive;
+}
+
+body {
+  background-image: url(/img//a-man-composer-producer-arranger-songwriter-musician-hands-arranging-music.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  /* animation: slideshow 45s linear infinite; */
+}
+#result strong {
+  color: white;
+}
+
+/* @keyframes slideshow {
+  0%, 100% {
+    background-image: url(../img/a-man-composer-producer-arranger-songwriter-musician-hands-arranging-music.jpg); 
+  }
+  12.5%, 87.5% {
+    background-image: url(../img/a-person-working-on-a-soundboard-in-a-dark-room.jpg); 
+  }
+  25%, 75% {
+    background-image: url(../img/close-up-of-sound-engineer-studio-with-equipment.jpg); 
+  }
+  50% {
+    background-image: url(../img/digital-mixer-in-a-recording-studio-work-with-sound-concept-of-creativity-and-show-business.jpg); 
+  }
+  75%, 25% {
+    background-image: url(../img/midi-keyboard-headphones-and-a-laptop-with-a-program-for-creating-music.jpg); 
+  }
+} */
+
+/* 
+.navnav{
+  margin-left: 25%;
+} */
+
+/* Ваш CSS файл */
+
+.custom-container {
+  color: rgb(255, 255, 255);
+  /* Ваши стили для контейнера */
+  font-size: 38px; /* Увеличение размера шрифта для контейнера */
+}
+
+.custom-container h3 {
+  color: aliceblue;
+  font-size: 35px; /* Увеличение размера шрифта для заголовков h3 */
+}
+
+.custom-container p {
+  color: aliceblue;
+  /* Стили для параграфов внутри контейнера */
+  font-size: 46px; /* Увеличение размера шрифта для параграфов */
+}
+
+/* Добавьте стили для других элементов по аналогии */
+
+.custom-image {
+  width: 520px; /* Ширина */
+  height: 520px; /* Высота */
+  margin-left: 12%;
+  border: 5px solid #ccc; /* Толщина рамки и цвет рамки */
+  box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.2); /* Тень */
+  /* Дополнительные стили, если необходимо */
+}
+
+.left {
+  margin-left: 43%;
+  font-size: 35px;
+}
+
+.name {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+
+.name2 {
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.mail {
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.mail2 {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+h1 {
+  color: aliceblue;
+}
+h2 {
+  color: aliceblue;
+}
+
+.beats {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center; /* Центрировать элементы по вертикали */
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.dogBtn {
+  margin: 10px;
+}
+
+.mainDiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+form {
+	max-width: 200px;
+	margin: 10px;
+} */
+
+
+/* CSS стили для карточек */
+ /* .cardddsss {
+  width: 18%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgb(218, 163, 163);
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 150, 150, 0.2);
+}  */

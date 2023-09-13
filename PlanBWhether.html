@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода в Zocca</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center p-3">
+      <h1>Погода</h1>
+    </header>
+    <main class="container mt-4">
+      <section id="weather">
+        <h2>Прогноз погоды</h2>
+        <div class="weather-info">
+          <p>Город: <span id="city"></span></p>
+          <img id="weatherIcon" src="" alt="Погодная иконка">
+          <p>Температура: <span id="temperature"></span>°C</p>
+          <p>Описание: <span id="description"></span></p>
+          <p>Влажность: <span id="humidity"></span>%</p>
+          <p>Давление: <span id="pressure"></span> hPa</p>
+        </div>
+
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Введите название города"
+        />
+        <button id="searchButton">Поиск</button>
+      </section>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+      <p>&copy; 2023 Ваша компания. Все права защищены.</p>
+    </footer>
+    <script src="./shaz.js"></script>
+  </body>
+</html>
